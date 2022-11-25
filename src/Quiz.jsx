@@ -26,7 +26,7 @@ function Quiz() {
 	};
 	return (
 		<div className='text-center bg-blue-500 flex h-screen'>
-			<div className='m-auto p-10 lg:p-20 lg:mx-32 bg-blue-400 rounded w-[70%]'>
+			<div className='m-auto p-10 lg:p-14 lg:mx-48 bg-blue-400 rounded w-[70%]'>
 				{showScore ? (
 					<div>
 						<p className='text-5xl text-white'>There is a {((score/questions.length) * 100).toFixed(2)}% chance you have ADHD</p>
