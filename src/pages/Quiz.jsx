@@ -28,7 +28,10 @@ function Quiz() {
 			<div className='m-auto p-10 lg:p-14 lg:mx-48 bg-blue-400 rounded w-[70%]'>
 				{showScore ? (
 					<div>
-						<p className='text-5xl text-white'>There is a {((score/questions.length) * 100).toFixed(2)}% chance you have ADHD</p>
+						<p className='text-5xl text-white pb-8'>There is a {((score/questions.length) * 100).toFixed(2)}% chance you have ADHD</p>
+						<a href='/' className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded text-lg'>
+							Go to Homepage
+						</a>
 					</div>
 				) : (
 					<>
