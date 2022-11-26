@@ -41,9 +41,9 @@ function Quiz() {
 							</div>
 							<div className=''>{questions[currentQuestion].questionText}</div>
 						</div>
-						<div className=''>
+						<div className='grid md:grid-cols-4'>
 							{questions[currentQuestion].answerOptions.map((answerOption) => (
-								<button onClick={() => handleAnswerOptionClick(answerOption.howOften)} className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 mt-10 rounded'>{answerOption.answerText}</button>
+								<button onClick={() => handleAnswerOptionClick(answerOption.howOften)} className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-6 px-5 mx-2 mt-10 rounded'>{answerOption.answerText}</button>
 							))}
 						</div>
 					</>

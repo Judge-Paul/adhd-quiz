@@ -6,6 +6,13 @@ function Terms() {
             <h2 className='text-center text-4xl'>Terms & Conditions</h2>
             <p>Last updated: November 26, 2022</p>
             <p>The result gotten from this test is based on the symptoms you might have do not take the results gotten from this test over a Specialist's word, I am not a specialist in mental health I am simply someone who codes and do not take the result from this test to a hospital because it is not recognized anywhere and they will probably laugh at you.</p>
+            <p>For more information on ADHD visit these pages <br />
+            <div className='text-xl text-blue-800'>
+                <a href="https://www.nhs.uk/conditions/attention-deficit-hyperactivity-disorder-adhd/symptoms/" className='hover:underline'>nhs.uk</a>, 
+                <a href="https://www.cdc.gov/ncbddd/adhd/facts.html#:~:text=ADHD%20is%20one%20of%20the,)%2C%20or%20be%20overly%20active." className='hover:underline'> cdc.gov</a> and
+                <a href="https://www.psychiatry.org/patients-families/adhd/what-is-adhd" className='hover:underline'> psychiatry.org</a>
+            </div>
+            </p>
             <p>Please read these terms and conditions carefully before using Our Service.</p>
             <h1>Interpretation and Definitions</h1>
             <h2>Interpretation</h2>
